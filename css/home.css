@@ -1,0 +1,79 @@
+/* Estilos globais */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.texto-branco {
+    color: #fff;
+}
+
+/* Topo */
+.topo {
+    position: relative;
+    padding: 35px 0;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.logo h1 {
+    position: absolute;
+    left: 90px;
+    top: 0;
+}
+
+.logo p {
+    position: absolute;
+    left: 90px;
+    bottom: 10px; 
+}
+.links {
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+}
+
+.links a {
+    margin: 0 5px;
+}
+
+/* Banner */
+.secao-banner {
+    background-color: #2f86d6;
+}
+
+.container-banner {
+    position: relative;
+    padding: 100px 0px;
+}
+
+.container-banner div {
+    width: 40%;
+}
+
+.container-banner img {
+    position: absolute;
+    top: 0;
+    right: 80px;
+    width: 50%;
+}
