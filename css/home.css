@@ -10,6 +10,7 @@
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+    position: relative;
 }
 
 a {
@@ -77,3 +78,77 @@ a {
     right: 80px;
     width: 50%;
 }
+
+/* Anuncios  */
+.secao-anuncio {
+    background-color: #233032;
+}
+
+.anuncio .subtitulo {
+    position: absolute;
+    top: 35%;
+}
+.anuncio {
+    padding: 20px 0;
+    height: 120px;
+}
+
+.anuncio div {
+    position: absolute;
+    top: 30%;
+}
+.secao-anuncio a {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 27% ;
+    background-color: #2f86d6;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.secao-anuncio img {
+    padding-right: 10px;
+}
+
+/* Seção informações */
+.secao-informacoes {
+    margin:  100px 0;
+}
+
+.secao-informacoes h2 {
+    margin: 0 auto;
+    max-width: 650px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.secao-informacoes span {
+    color: #2f86d6;
+}
+
+.secao-informacoes .bloco {
+    text-align: center;
+    width: 30%;
+}
+
+.secao-informacoes img {
+    width: 45%;
+}
+
+.cards {
+    position: relative;
+}
+.card3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.card2 {
+    position: absolute;
+    left: 35%;
+    top: 0;
+}
+
+/* Seção planos */
