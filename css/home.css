@@ -46,8 +46,10 @@ a {
 .logo p {
     position: absolute;
     left: 90px;
-    bottom: 10px; 
+    bottom: 10px;
+    color: #2f86d6;
 }
+
 .links {
     position: absolute;
     right: 0;
@@ -77,6 +79,10 @@ a {
     top: 0;
     right: 80px;
     width: 50%;
+}
+
+.container-banner p, .container-banner h2 {
+    margin: 20px 0;
 }
 
 /* Anuncios  */
@@ -207,15 +213,34 @@ tr {
 .rodape {
     text-align: center;
     padding: 45px;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .rodape img {
     width: 70px;
+    position: absolute;
+    left: 350px;
 }
 
 .logo-rodape {
-    margin: 20px;
+    height: 100px;
+    margin: 15px;
+    position: relative;
+}
+
+.logo-rodape div {
+    position: absolute;
+    top: 0;
+    left: 430px;
+    text-align: left;
+}
+
+.logo-rodape h1 {
+    margin-bottom: 12px;
+}
+
+.logo-rodape p {
+    color: #2f86d6;
 }
 
 /* Dev */
